@@ -9,7 +9,8 @@
 }
 
 @theme {
-    --color-yellow: #f7dac1;
+    --color-lgtGreen: #ceecc3;
+    --color-yellow: #f7dac1C0;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -19,7 +20,7 @@
 html,
 body {
     width: 100%;
-    background-color: rgb(206, 236, 195);
+    background-color:#ceecc3;
     color: #213721;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -38,10 +39,15 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    /* background: linear-gradient(to bottom, #ffffff, #898989);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: transparent; */
+    background: linear-gradient(to bottom, #213721, #507350);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+
 }
 
 @utility radial-gradient {
@@ -253,7 +259,7 @@ body {
             @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
         }
 
-        .cocktail-img {
+        .skincare-img {
             @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
         }
 
@@ -287,7 +293,7 @@ body {
             @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
         }
 
-        .cocktail-tabs {
+        .skincare-tabs {
             @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
             button {
@@ -311,7 +317,7 @@ body {
             }
         }
 
-        .cocktail {
+        .skincare {
             @apply flex-center mt-10;
 
             img {
