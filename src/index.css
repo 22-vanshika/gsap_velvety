@@ -9,7 +9,7 @@
 }
 
 @theme {
-    --color-yellow: #e7d393;
+    --color-yellow: #f7dac1;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -19,8 +19,8 @@
 html,
 body {
     width: 100%;
-    background-color: rgb(223, 237, 219);
-    color: white;
+    background-color: rgb(206, 236, 195);
+    color: #213721;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -93,7 +93,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-6xl md:text-[8vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
@@ -118,7 +118,7 @@ body {
                     @apply 2xl:text-start text-center;
                 }
 
-                .view-cocktails {
+                .view-skincare {
                     @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
                     p {
@@ -127,6 +127,7 @@ body {
 
                     a {
                         @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
+                        
                     }
                 }
             }
@@ -137,7 +138,7 @@ body {
         @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
     }
 
-    #cocktails {
+    #skincare {
         @apply relative min-h-dvh w-full overflow-hidden;
 
         #c-left-leaf {
