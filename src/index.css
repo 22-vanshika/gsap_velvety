@@ -9,8 +9,8 @@
 }
 
 @theme {
-    --color-lgtGreen: #ceecc3;
-    --color-yellow: #f7dac1C0;
+    --color-lgtGreen: #b5cfab;
+    --color-yellow: #FFFFFF90;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -20,7 +20,7 @@
 html,
 body {
     width: 100%;
-    background-color:#ceecc3;
+    background-color:#b5cfab;
     color: #213721;
     scroll-behavior: smooth;
     overflow-x: hidden;
