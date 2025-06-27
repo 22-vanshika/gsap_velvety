@@ -10,7 +10,7 @@
 
 @theme {
     --color-lgtGreen: #b5cfab;
-    --color-yellow: #FFFFFF90;
+    --color-yellow: #ffffffB0;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -39,15 +39,10 @@ body {
 }
 
 @utility text-gradient {
-    /* background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #213721, #507350);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; */
-    background: linear-gradient(to bottom, #213721, #507350);
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
-
+    color: transparent;
 }
 
 @utility radial-gradient {
@@ -92,14 +87,14 @@ color: transparent;
     }
 
     .noisy {
-        @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+        @apply z-10 absolute inset-0 size-full bg-[url("/images/noise.png")];
     }
 
     #hero {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-6xl md:text-[8vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 xl:mt-48 mt-40 text-6xl md:text-[8vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {

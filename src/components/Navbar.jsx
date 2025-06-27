@@ -28,17 +28,21 @@ const Navbar = () => {
   return (
     <nav>
       <div>
-        <a href="#home" className="flex items-center gap-2">
-          {/* <img src="/images/Logo.svg" alt="logo" /> */}
+
+        <a href="#home" className="flex items-center gap-2 text-gradient">
           <p>Velvety</p>
         </a>
+
         <ul>
           {navLinks.map((link) => (
             <li key={link.id}>
-              <a href={`#${link.id}`} >{link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
+
+
+
       </div>
     </nav>
   );
