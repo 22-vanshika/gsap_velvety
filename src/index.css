@@ -142,11 +142,11 @@ body {
     #skincare {
         @apply relative min-h-dvh w-full overflow-hidden;
 
-        #c-left-leaf {
+        #s-left-leaf {
             @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
-        #c-right-leaf {
+        #s-right-leaf {
             @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
@@ -162,7 +162,7 @@ body {
             }
 
             h2 {
-                @apply text-xl font-medium;
+                @apply text-xl font-medium text-gradient;
             }
 
             ul {

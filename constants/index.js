@@ -1,7 +1,7 @@
 const navLinks = [
  {
-	id: "cocktails",
-	title: "Cocktails",
+	id: "skincare",
+	title: "Skincare",
  },
  {
 	id: "about",
@@ -17,59 +17,61 @@ const navLinks = [
  },
 ];
 
-const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+const skincareLists = [
+  {
+    name: "Botanic Radiance Serum",
+    country: "IN",
+    detail: "30 ml",
+    price: "₹1,299",
+  },
+  {
+    name: "Rose Dew Hydrating Mist",
+    country: "FR",
+    detail: "100 ml",
+    price: "₹799",
+  },
+  {
+    name: "Green Tea Glow Mask",
+    country: "JP",
+    detail: "50 g",
+    price: "₹1,099",
+  },
+  {
+    name: "Lavender Calm Cleanser",
+    country: "UK",
+    detail: "150 ml",
+    price: "₹899",
+  },
 ];
 
-const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+
+const serumLists = [
+  {
+    name: "Citrus Bloom Face Oil",
+    country: "US",
+    detail: "25 ml",
+    price: "₹1,599",
+  },
+  {
+    name: "Aloe Refresh Gel",
+    country: "IN",
+    detail: "75 ml",
+    price: "₹699",
+  },
+  {
+    name: "Chamomile Night Cream",
+    country: "DE",
+    detail: "60 g",
+    price: "₹1,299",
+  },
+  {
+    name: "Mint Clay Detox Mask",
+    country: "AU",
+    detail: "100 g",
+    price: "₹999",
+  },
 ];
+
 
 const profileLists = [
  {
@@ -105,7 +107,7 @@ const storeInfo = {
  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
  contact: {
 	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
+	email: "hello@jsmskincare.com",
  },
 };
 
@@ -134,7 +136,7 @@ const socials = [
  },
 ];
 
-const allCocktails = [
+const allSkincare = [
  {
 	id: 1,
 	name: "Classic Mojito",
@@ -171,13 +173,13 @@ const allCocktails = [
 
 export {
  navLinks,
- cocktailLists,
- mockTailLists,
+ skincareLists,
+ serumLists,
  profileLists,
  featureLists,
  goodLists,
  openingHours,
  storeInfo,
  socials,
- allCocktails,
+ allSkincare,
 };
