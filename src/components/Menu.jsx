@@ -39,13 +39,13 @@ const Menu = () => {
  return (
 	<section id="menu" aria-labelledby="menu-heading">
 	 <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
-	 <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
-	 
-	 <h2 id="menu-heading" className="sr-only">
+	 {/* <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" /> */}
+{/* 	 
+	 <h2 id="menu-heading" className="">
 		Products
-	 </h2>
+	 </h2> */}
 	 
-	 <nav className="skincare-tabs" aria-label="Skincare Navigation">
+	 <div className="skincare-tabs" >
 		{allSkincare.map((skincare, index) => {
 		 const isActive = index === currentIndex;
 		 
@@ -60,7 +60,7 @@ const Menu = () => {
 			</button>
 		 )
 		})}
-	 </nav>
+	 </div>
 	 
 	 <div className="content">
 		<div className="arrows">
