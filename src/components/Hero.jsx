@@ -66,7 +66,7 @@ const Hero = () => {
   return (
     <>
     <section id="hero" className="noisy">
-      <h1 className="title">Let Nature  Heal You </h1>
+      <h1 className="title">Let Nature <br /> Heal You </h1>
      
 
       <img

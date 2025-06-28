@@ -95,7 +95,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 xl:mt-48 mt-40 text-6xl md:text-[8vw] leading-none text-center font-modern-negra;
+            @apply md:mt-20 lg:mt-44 xl:mt-32 mt-32 text-8xl md:text-[8vw] leading-none text-center font-modern-negra;
         }
 
         .left-leaf {
@@ -189,7 +189,7 @@ body {
     }
 
     #about {
-        @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+        @apply min-h-screen py-24 xl:px-16 md:px-3 px-6 container mx-auto;
 
         .content {
             @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
@@ -206,7 +206,7 @@ body {
                 }
 
                 div {
-                    @apply flex flex-col justify-between md:gap-2 gap-5;
+                    @apply  flex flex-col justify-between md:gap-2 gap-5;
 
                     span {
                         @apply text-yellow font-bold text-5xl;
@@ -220,26 +220,26 @@ body {
         }
 
         .top-grid {
-            @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
+            @apply  grid grid-cols-2 md:grid-cols-12 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5 ;
 
             > div {
                 @apply rounded-3xl overflow-hidden h-72 relative;
             }
 
             img {
-                @apply object-cover w-full h-full;
+                @apply h-full w-full  xl:object-cover;
             }
         }
 
         .bottom-grid {
-            @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
+            @apply grid grid-cols-2 md:grid-cols-12 xl:grid-cols-12 gap-5 md:px-0 px-5 ;
 
             > div {
                 @apply rounded-3xl overflow-hidden h-72 relative;
             }
 
             img {
-                @apply object-cover w-full h-full;
+                @apply h-full w-full  xl:object-cover;
             }
         }
     }
