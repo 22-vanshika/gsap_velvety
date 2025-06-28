@@ -8,10 +8,6 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
-	title: "The Art",
- },
- {
 	id: "contact",
 	title: "Contact",
  },
@@ -143,39 +139,50 @@ const socials = [
 ];
 
 const allSkincare = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Morning Dew Serum",
+    image: "/images/product1.png",
+    title: "Glow From the First Drop",
+    description:
+      "Packed with vitamin C and hyaluronic acid, this lightweight serum revives dull skin and restores a radiant, morning-fresh glow — drop by drop.",
+  },
+  {
+    id: 2,
+    name: "Purifying Cream Cleanser",
+    image: "/images/product2.png",
+    title: "Gentle. Clean. Botanical.",
+    description:
+      "Infused with green tea, aloe, and oat extract, this non-stripping cleanser gently removes impurities while soothing and hydrating your skin.",
+  },
+  {
+    id: 3,
+    name: "Botanic Silk Moisturizer",
+    image: "/images/product3.png",
+    title: "Hydration That Hugs Your Skin",
+    description:
+      "A velvety blend of shea butter, jojoba oil, and rosehip, this daily moisturizer melts into your skin to leave it soft, nourished, and balanced.",
+  },
+  {
+    id: 4,
+    name: "Calm Eyes Elixir",
+    image: "/images/product4.png",
+    title: "Awaken. Brighten. Defend.",
+    description:
+      "Formulated with caffeine, cucumber extract, and niacinamide to reduce puffiness and dark circles, giving your under-eyes a well-rested glow.",
+  },
+  {
+    id: 5,
+    name: "Floral Detox Clay Mask",
+    image: "/images/product5.png",
+    title: "Nature’s Reset Ritual",
+    description:
+      "This gentle pink clay mask draws out toxins and excess oil while calming inflammation with lavender and calendula — your weekly glow ritual.",
+  },
+ 
 ];
+
+
 
 export {
  navLinks,
