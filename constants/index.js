@@ -89,17 +89,23 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+"Hand-selected botanicals",
+
+"Signature infusion techniques",
+
+"Nature‑inspired craftsmanship",
+
+"Freshly blended formulations",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+"Perfectly balanced textures",
+
+"Dermatologist‑led blends",
+
+"Chilled—never harsh",
+
+"Expertly layered skincare",
 ];
 
 const storeInfo = {
