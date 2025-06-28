@@ -39,11 +39,6 @@ const Menu = () => {
  return (
 	<section id="menu" aria-labelledby="menu-heading">
 	 <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
-	 {/* <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" /> */}
-{/* 	 
-	 <h2 id="menu-heading" className="">
-		Products
-	 </h2> */}
 	 
 	 <div className="skincare-tabs" >
 		{allSkincare.map((skincare, index) => {
@@ -52,8 +47,8 @@ const Menu = () => {
 		 return (
 			<button key={skincare.id} className={`
 				${isActive
-				 ? 'text-white border-white'
-				 : 'text-white/50 border-white/50'}
+				 ? 'text-gradient border-green'
+				 : 'text-yellow/70 border-white/50'}
 			 `}	onClick={() => goToSlide(index)}
 			>
 			 {skincare.name}
