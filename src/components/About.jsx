@@ -1,48 +1,36 @@
-import React from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { SplitText } from "gsap/all";
+import gsap from 'gsap';
+import { SplitText} from 'gsap/all'
+import { useGSAP } from '@gsap/react'
 
 const About = () => {
-	useGSAP(() => {
-	//   const titleSplit = SplitText.create("#about h2", {
-	// 	type: "words",
-	//   });
+ useGSAP(() => {
+	const titleSplit = SplitText.create('#about h2', {
+	 type: 'words'
+	})
 	
-	  const scrollTimeline = gsap.timeline({
-		scrollTrigger: {
-		  trigger: "#about",
-		  start: "top center",
-		},
-	  });
+	const scrollTimeline = gsap.timeline({
+	 scrollTrigger: {
+		trigger: '#about',
+		start: 'top center'
+	 }
+	})
 	
-	  scrollTimeline
-		// .from(titleSplit.words, {
-		//   opacity: 0,
-		//   duration: 1,
-		//   yPercent: 100,
-		//   ease: "expo.out",
-		//   stagger: 0.02,
-		// })
-		.from(
-		  ".top-grid div, .bottom-grid div",
-		  {
-			opacity: 0,
-			duration: 1.5,
-			ease: "power1.inOut",
-			stagger: 0.04,
-		  },
-		  "-=0.5"
-		);
-	});
+	scrollTimeline
+	 .from(titleSplit.words, {
+		opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.02
+	})
+	 .from('.top-grid div, .bottom-grid div', {
+		opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
+	}, '-=0.5')
+ })
   return (
     <div id="about">
       <div className="mb-16 md:px-0 px-5">
         <div className="content">
           <div className="md:col-span-8">
             <p className="badge">Nature's Finest Blends</p>
-            <h2 className="text-gradient">
-              Where every drop is crafted with care — from root to radiance
+            <h2>
+              Where every drop is crafted with care <span className="text-yellow">-</span> from root to radiance
             </h2>
           </div>
           <div className="sub-content">
@@ -65,15 +53,15 @@ const About = () => {
       </div>
 
       <div className="top-grid">
+        <div className="md:col-span-6">
+          <div className="noisy" />
+          <img src="/images/abt3.jpg" alt="grid-img-2" />
+        </div>
         <div className="md:col-span-3">
           <div className="noisy" />
           <img src="/images/abt1.png" alt="grid-img-1" />
         </div>
 
-        <div className="md:col-span-6">
-          <div />
-          <img src="/images/abt2.png" alt="grid-img-2" />
-        </div>
 
         <div className="md:col-span-3">
           <div className="noisy" />
@@ -81,7 +69,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bottom-grid">
+      {/* <div className="bottom-grid">
         <div className="md:col-span-8">
           <div className="noisy" />
           <img src="/images/abt3.jpg" alt="grid-img-3" />
@@ -91,7 +79,7 @@ const About = () => {
           <div className="noisy" />
           <img src="/images/abt4.png" alt="grid-img-4" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
