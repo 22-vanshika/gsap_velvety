@@ -66,7 +66,8 @@ const Hero = () => {
   return (
     <>
     <section id="hero" className="noisy">
-      <h1 className="title">Let Nature Heal You</h1>
+      <h1 className="title">Let Nature  Heal You </h1>
+     
 
       <img
         src="/images/hero-left-leaf.png"
@@ -87,7 +88,7 @@ const Hero = () => {
           </div>
 
           <div className="view-skincare">
-            <p className="subtitle">
+            <p className="subtitle ">
               Each Velvety product blends nature’s finest, gentle science, and
               timeless care — crafted to nourish your skin and soothe your
               senses.
