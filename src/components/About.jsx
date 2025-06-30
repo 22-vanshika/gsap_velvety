@@ -20,8 +20,8 @@ const About = () => {
 		opacity: 0, duration: 0.5, yPercent: 100, ease: 'expo.out', stagger: 0.02
 	})
 	 .from('.top-grid div, .bottom-grid div', {
-		opacity: 0, duration: 0.5, ease: 'power1.inOut', stagger: 0.04,
-	}, '-=0.3')
+		opacity: 0, duration: 0.8, ease: 'power1.inOut', stagger: 0.04,
+	}, '-=0.4')
  })
   return (
     <div id="about" className='mt-24'>
